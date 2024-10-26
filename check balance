@@ -1,0 +1,30 @@
+class CallCost 
+{
+
+    public static void main(String[] args) 
+    {
+        
+        // Initial balance in Rupees
+        double balance = 170.0;
+
+        // Rate per second
+        double rate = 1.02;
+
+        // Duration of the call in seconds
+        double duration = 37.0;
+
+        // Calculate the cost of the call
+        double cost = duration * rate; 
+
+        // Update the balance after the call
+        balance = balance - cost; 
+
+        // Display the call duration
+        System.out.print("Call Duration: ");
+        System.out.print(duration);
+        System.out.println(" Seconds");
+
+        // Display the remaining balance
+        System.out.println("Balance: " + balance + " Rupees");
+    }
+}
